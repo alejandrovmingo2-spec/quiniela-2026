@@ -77,7 +77,7 @@ export default function QuinielaDashboard() {
   if (loading) return <div className="p-10 text-center text-white">Cargando quiniela...</div>;
 
   return (
-    <main className="min-h-screen pb-24 bg-[repeating-linear-gradient(0deg,#16a34a,#16a34a_60px,#15803d_60px,#15803d_120px)]">
+    <main className="min-h-screen pb-24 bg-slate-900">
       <div className="max-w-2xl mx-auto">
         <div className="pt-8 pb-4 px-4 sm:px-6">
           {/* Título adaptable al tamaño de celular (sm:text-3xl) */}
