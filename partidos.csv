@@ -1,0 +1,73 @@
+id,api_partido_id,fase,fecha,equipo_local_id,equipo_visitante_id,estadio,estado
+1,,Jornada 1,2026-06-11 15:00:00,1,2,Estadio Ciudad de México,pendiente
+2,,Jornada 1,2026-06-11 22:00:00,3,4,Estadio Guadalajara,pendiente
+3,,Jornada 1,2026-06-12 12:00:00,5,6,Toronto Stadium,pendiente
+4,,Jornada 1,2026-06-12 18:00:00,7,8,Vancouver Stadium,pendiente
+5,,Jornada 1,2026-06-13 10:00:00,9,10,MetLife Stadium,pendiente
+6,,Jornada 1,2026-06-13 16:00:00,11,12,Miami Stadium,pendiente
+7,,Jornada 1,2026-06-14 10:00:00,13,14,Los Angeles Stadium,pendiente
+8,,Jornada 1,2026-06-14 16:00:00,15,16,Seattle Stadium,pendiente
+9,,Jornada 1,2026-06-15 10:00:00,17,18,Dallas Stadium,pendiente
+10,,Jornada 1,2026-06-15 16:00:00,19,20,Houston Stadium,pendiente
+11,,Jornada 1,2026-06-16 10:00:00,21,22,Atlanta Stadium,pendiente
+12,,Jornada 1,2026-06-16 16:00:00,23,24,Boston Stadium,pendiente
+13,,Jornada 1,2026-06-17 10:00:00,25,26,Philadelphia Stadium,pendiente
+14,,Jornada 1,2026-06-17 16:00:00,27,28,Kansas City Stadium,pendiente
+15,,Jornada 1,2026-06-18 10:00:00,29,30,San Francisco Stadium,pendiente
+16,,Jornada 1,2026-06-18 16:00:00,31,32,Estadio Monterrey,pendiente
+17,,Jornada 1,2026-06-19 10:00:00,33,34,Estadio Guadalajara,pendiente
+18,,Jornada 1,2026-06-19 16:00:00,35,36,Toronto Stadium,pendiente
+19,,Jornada 1,2026-06-20 10:00:00,37,38,Vancouver Stadium,pendiente
+20,,Jornada 1,2026-06-20 16:00:00,39,40,MetLife Stadium,pendiente
+21,,Jornada 1,2026-06-21 10:00:00,41,42,Miami Stadium,pendiente
+22,,Jornada 1,2026-06-21 16:00:00,43,44,Los Angeles Stadium,pendiente
+23,,Jornada 1,2026-06-22 10:00:00,45,46,Seattle Stadium,pendiente
+24,,Jornada 1,2026-06-22 16:00:00,47,48,Dallas Stadium,pendiente
+25,,Jornada 2,2026-06-18 12:00:00,4,2,Atlanta Stadium,pendiente
+26,,Jornada 2,2026-06-18 21:00:00,1,3,Estadio Guadalajara,pendiente
+27,,Jornada 2,2026-06-19 12:00:00,8,6,Toronto Stadium,pendiente
+28,,Jornada 2,2026-06-19 21:00:00,5,7,Vancouver Stadium,pendiente
+29,,Jornada 2,2026-06-20 12:00:00,12,10,MetLife Stadium,pendiente
+30,,Jornada 2,2026-06-20 21:00:00,9,11,Miami Stadium,pendiente
+31,,Jornada 2,2026-06-21 12:00:00,16,14,Los Angeles Stadium,pendiente
+32,,Jornada 2,2026-06-21 21:00:00,13,15,Seattle Stadium,pendiente
+33,,Jornada 2,2026-06-22 12:00:00,20,18,Dallas Stadium,pendiente
+34,,Jornada 2,2026-06-22 21:00:00,17,19,Houston Stadium,pendiente
+35,,Jornada 2,2026-06-23 12:00:00,24,22,Atlanta Stadium,pendiente
+36,,Jornada 2,2026-06-23 21:00:00,21,23,Boston Stadium,pendiente
+37,,Jornada 2,2026-06-24 12:00:00,28,26,Philadelphia Stadium,pendiente
+38,,Jornada 2,2026-06-24 21:00:00,25,27,Kansas City Stadium,pendiente
+39,,Jornada 2,2026-06-25 12:00:00,32,30,San Francisco Stadium,pendiente
+40,,Jornada 2,2026-06-25 21:00:00,29,31,Estadio Monterrey,pendiente
+41,,Jornada 2,2026-06-26 12:00:00,36,34,Estadio Guadalajara,pendiente
+42,,Jornada 2,2026-06-26 21:00:00,33,35,Toronto Stadium,pendiente
+43,,Jornada 2,2026-06-27 12:00:00,40,38,Vancouver Stadium,pendiente
+44,,Jornada 2,2026-06-27 21:00:00,37,39,MetLife Stadium,pendiente
+45,,Jornada 2,2026-06-28 12:00:00,44,42,Miami Stadium,pendiente
+46,,Jornada 2,2026-06-28 21:00:00,41,43,Los Angeles Stadium,pendiente
+47,,Jornada 2,2026-06-29 12:00:00,48,46,Seattle Stadium,pendiente
+48,,Jornada 2,2026-06-29 21:00:00,45,47,Dallas Stadium,pendiente
+49,,Jornada 3,2026-06-24 21:00:00,4,1,Estadio Ciudad de México,pendiente
+50,,Jornada 3,2026-06-24 21:00:00,2,3,Estadio Monterrey,pendiente
+51,,Jornada 3,2026-06-25 21:00:00,8,5,Toronto Stadium,pendiente
+52,,Jornada 3,2026-06-25 21:00:00,6,7,Vancouver Stadium,pendiente
+53,,Jornada 3,2026-06-26 21:00:00,12,9,MetLife Stadium,pendiente
+54,,Jornada 3,2026-06-26 21:00:00,10,11,Miami Stadium,pendiente
+55,,Jornada 3,2026-06-27 21:00:00,16,13,Los Angeles Stadium,pendiente
+56,,Jornada 3,2026-06-27 21:00:00,14,15,Seattle Stadium,pendiente
+57,,Jornada 3,2026-06-28 21:00:00,20,17,Dallas Stadium,pendiente
+58,,Jornada 3,2026-06-28 21:00:00,18,19,Houston Stadium,pendiente
+59,,Jornada 3,2026-06-29 21:00:00,24,21,Atlanta Stadium,pendiente
+60,,Jornada 3,2026-06-29 21:00:00,22,23,Boston Stadium,pendiente
+61,,Jornada 3,2026-06-30 21:00:00,28,25,Philadelphia Stadium,pendiente
+62,,Jornada 3,2026-06-30 21:00:00,26,27,Kansas City Stadium,pendiente
+63,,Jornada 3,2026-07-01 21:00:00,32,29,San Francisco Stadium,pendiente
+64,,Jornada 3,2026-07-01 21:00:00,30,31,Estadio Monterrey,pendiente
+65,,Jornada 3,2026-07-02 21:00:00,36,33,Estadio Guadalajara,pendiente
+66,,Jornada 3,2026-07-02 21:00:00,34,35,Toronto Stadium,pendiente
+67,,Jornada 3,2026-07-03 21:00:00,40,37,Vancouver Stadium,pendiente
+68,,Jornada 3,2026-07-03 21:00:00,38,39,MetLife Stadium,pendiente
+69,,Jornada 3,2026-07-04 21:00:00,44,41,Miami Stadium,pendiente
+70,,Jornada 3,2026-07-04 21:00:00,42,43,Los Angeles Stadium,pendiente
+71,,Jornada 3,2026-07-05 21:00:00,48,45,Seattle Stadium,pendiente
+72,,Jornada 3,2026-07-05 21:00:00,46,47,Dallas Stadium,pendiente

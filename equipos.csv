@@ -1,0 +1,49 @@
+id,api_equipo_id,nombre,grupo,bandera_url,jugados,puntos,goles_favor,goles_contra,diferencia
+1,,México,A,,0,0,0,0,0
+2,,Sudáfrica,A,,0,0,0,0,0
+3,,Corea del Sur,A,,0,0,0,0,0
+4,,República Checa,A,,0,0,0,0,0
+5,,Canadá,B,,0,0,0,0,0
+6,,Bosnia y Herzegovina,B,,0,0,0,0,0
+7,,Catar,B,,0,0,0,0,0
+8,,Suiza,B,,0,0,0,0,0
+9,,Brasil,C,,0,0,0,0,0
+10,,Marruecos,C,,0,0,0,0,0
+11,,Haití,C,,0,0,0,0,0
+12,,Escocia,C,,0,0,0,0,0
+13,,Estados Unidos,D,,0,0,0,0,0
+14,,Paraguay,D,,0,0,0,0,0
+15,,Australia,D,,0,0,0,0,0
+16,,Turquía,D,,0,0,0,0,0
+17,,España,E,,0,0,0,0,0
+18,,Ecuador,E,,0,0,0,0,0
+19,,Zambia,E,,0,0,0,0,0
+20,,Uzbekistán,E,,0,0,0,0,0
+21,,Argentina,F,,0,0,0,0,0
+22,,Costa de Marfil,F,,0,0,0,0,0
+23,,Irán,F,,0,0,0,0,0
+24,,Nueva Zelanda,F,,0,0,0,0,0
+25,,Francia,G,,0,0,0,0,0
+26,,Perú,G,,0,0,0,0,0
+27,,Arabia Saudita,G,,0,0,0,0,0
+28,,Gales,G,,0,0,0,0,0
+29,,Inglaterra,H,,0,0,0,0,0
+30,,Chile,H,,0,0,0,0,0
+31,,Japón,H,,0,0,0,0,0
+32,,Jamaica,H,,0,0,0,0,0
+33,,Bélgica,I,,0,0,0,0,0
+34,,Senegal,I,,0,0,0,0,0
+35,,Honduras,I,,0,0,0,0,0
+36,,Austria,I,,0,0,0,0,0
+37,,Portugal,J,,0,0,0,0,0
+38,,Uruguay,J,,0,0,0,0,0
+39,,Mali,J,,0,0,0,0,0
+40,,China,J,,0,0,0,0,0
+41,,Países Bajos,K,,0,0,0,0,0
+42,,Colombia,K,,0,0,0,0,0
+43,,Túnez,K,,0,0,0,0,0
+44,,Serbia,K,,0,0,0,0,0
+45,,Alemania,L,,0,0,0,0,0
+46,,Nigeria,L,,0,0,0,0,0
+47,,Panamá,L,,0,0,0,0,0
+48,,Suecia,L,,0,0,0,0,0
