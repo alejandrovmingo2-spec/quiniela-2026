@@ -1,49 +1,49 @@
 id,api_equipo_id,nombre,grupo,bandera_url,jugados,puntos,goles_favor,goles_contra,diferencia
-1,,México,A,,0,0,0,0,0
-2,,Sudáfrica,A,,0,0,0,0,0
-3,,Corea del Sur,A,,0,0,0,0,0
-4,,República Checa,A,,0,0,0,0,0
-5,,Canadá,B,,0,0,0,0,0
-6,,Bosnia y Herzegovina,B,,0,0,0,0,0
-7,,Catar,B,,0,0,0,0,0
-8,,Suiza,B,,0,0,0,0,0
-9,,Brasil,C,,0,0,0,0,0
-10,,Marruecos,C,,0,0,0,0,0
-11,,Haití,C,,0,0,0,0,0
-12,,Escocia,C,,0,0,0,0,0
-13,,Estados Unidos,D,,0,0,0,0,0
-14,,Paraguay,D,,0,0,0,0,0
-15,,Australia,D,,0,0,0,0,0
-16,,Turquía,D,,0,0,0,0,0
-17,,España,E,,0,0,0,0,0
-18,,Ecuador,E,,0,0,0,0,0
-19,,Zambia,E,,0,0,0,0,0
-20,,Uzbekistán,E,,0,0,0,0,0
-21,,Argentina,F,,0,0,0,0,0
-22,,Costa de Marfil,F,,0,0,0,0,0
-23,,Irán,F,,0,0,0,0,0
-24,,Nueva Zelanda,F,,0,0,0,0,0
-25,,Francia,G,,0,0,0,0,0
-26,,Perú,G,,0,0,0,0,0
-27,,Arabia Saudita,G,,0,0,0,0,0
-28,,Gales,G,,0,0,0,0,0
-29,,Inglaterra,H,,0,0,0,0,0
-30,,Chile,H,,0,0,0,0,0
-31,,Japón,H,,0,0,0,0,0
-32,,Jamaica,H,,0,0,0,0,0
-33,,Bélgica,I,,0,0,0,0,0
-34,,Senegal,I,,0,0,0,0,0
-35,,Honduras,I,,0,0,0,0,0
-36,,Austria,I,,0,0,0,0,0
-37,,Portugal,J,,0,0,0,0,0
-38,,Uruguay,J,,0,0,0,0,0
-39,,Mali,J,,0,0,0,0,0
-40,,China,J,,0,0,0,0,0
-41,,Países Bajos,K,,0,0,0,0,0
-42,,Colombia,K,,0,0,0,0,0
-43,,Túnez,K,,0,0,0,0,0
-44,,Serbia,K,,0,0,0,0,0
-45,,Alemania,L,,0,0,0,0,0
-46,,Nigeria,L,,0,0,0,0,0
-47,,Panamá,L,,0,0,0,0,0
-48,,Suecia,L,,0,0,0,0,0
+1,,México,A,https://flagcdn.com/w40/mx.png,0,0,0,0,0
+2,,Sudáfrica,A,https://flagcdn.com/w40/za.png,0,0,0,0,0
+3,,Corea del Sur,A,https://flagcdn.com/w40/kr.png,0,0,0,0,0
+4,,República Checa,A,https://flagcdn.com/w40/cz.png,0,0,0,0,0
+5,,Canadá,B,https://flagcdn.com/w40/ca.png,0,0,0,0,0
+6,,Bosnia y Herzegovina,B,https://flagcdn.com/w40/ba.png,0,0,0,0,0
+7,,Catar,B,https://flagcdn.com/w40/qa.png,0,0,0,0,0
+8,,Suiza,B,https://flagcdn.com/w40/ch.png,0,0,0,0,0
+9,,Brasil,C,https://flagcdn.com/w40/br.png,0,0,0,0,0
+10,,Marruecos,C,https://flagcdn.com/w40/ma.png,0,0,0,0,0
+11,,Haití,C,https://flagcdn.com/w40/ht.png,0,0,0,0,0
+12,,Escocia,C,https://flagcdn.com/w40/gb-sct.png,0,0,0,0,0
+13,,Estados Unidos,D,https://flagcdn.com/w40/us.png,0,0,0,0,0
+14,,Paraguay,D,https://flagcdn.com/w40/py.png,0,0,0,0,0
+15,,Australia,D,https://flagcdn.com/w40/au.png,0,0,0,0,0
+16,,Turquía,D,https://flagcdn.com/w40/tr.png,0,0,0,0,0
+17,,Alemania,E,https://flagcdn.com/w40/de.png,0,0,0,0,0
+18,,Curazao,E,https://flagcdn.com/w40/cw.png,0,0,0,0,0
+19,,Costa de Marfil,E,https://flagcdn.com/w40/ci.png,0,0,0,0,0
+20,,Ecuador,E,https://flagcdn.com/w40/ec.png,0,0,0,0,0
+21,,Paises Bajos,F,https://flagcdn.com/w40/nl.png,0,0,0,0,0
+22,,Japon,F,https://flagcdn.com/w40/jp.png,0,0,0,0,0
+23,,Suecia,F,https://flagcdn.com/w40/se.png,0,0,0,0,0
+24,,Tunez,F,https://flagcdn.com/w40/tn.png,0,0,0,0,0
+25,,Belgica,G,https://flagcdn.com/w40/be.png,0,0,0,0,0
+26,,Egipto,G,https://flagcdn.com/w40/eg.png,0,0,0,0,0
+27,,Iran,G,https://flagcdn.com/w40/ir.png,0,0,0,0,0
+28,,Nueva Zelanda,G,https://flagcdn.com/w40/nz.png,0,0,0,0,0
+29,,España,H,https://flagcdn.com/w40/es.png,0,0,0,0,0
+30,,Cabo Verde,H,https://flagcdn.com/w40/cv.png,0,0,0,0,0
+31,,Arabia Saudita,H,https://flagcdn.com/w40/sa.png,0,0,0,0,0
+32,,Uruguay,H,https://flagcdn.com/w40/uy.png,0,0,0,0,0
+33,,Francia,I,https://flagcdn.com/w40/fr.png,0,0,0,0,0
+34,,Senegal,I,https://flagcdn.com/w40/sn.png,0,0,0,0,0
+35,,Irak,I,https://flagcdn.com/w40/iq.png,0,0,0,0,0
+36,,Noruega,I,https://flagcdn.com/w40/no.png,0,0,0,0,0
+37,,Argentina,J,https://flagcdn.com/w40/ar.png,0,0,0,0,0
+38,,Argelia,J,https://flagcdn.com/w40/dz.png,0,0,0,0,0
+39,,Austria,J,https://flagcdn.com/w40/at.png,0,0,0,0,0
+40,,Jordania,J,https://flagcdn.com/w40/jo.png,0,0,0,0,0
+41,,Portugal,K,https://flagcdn.com/w40/pt.png,0,0,0,0,0
+42,,RD Congo,K,https://flagcdn.com/w40/cd.png,0,0,0,0,0
+43,,Uzbekistan,K,https://flagcdn.com/w40/uz.png,0,0,0,0,0
+44,,Colombia,K,https://flagcdn.com/w40/co.png,0,0,0,0,0
+45,,Inglaterra,L,https://flagcdn.com/w40/gb-eng.png,0,0,0,0,0
+46,,Croacia,L,https://flagcdn.com/w40/hr.png,0,0,0,0,0
+47,,Ghana,L,https://flagcdn.com/w40/gh.png,0,0,0,0,0
+48,,Panama,L,https://flagcdn.com/w40/pa.png,0,0,0,0,0

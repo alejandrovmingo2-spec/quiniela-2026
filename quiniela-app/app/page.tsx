@@ -38,6 +38,7 @@ export default function QuinielaDashboard() {
   // 1. EL CEREBRO DEL CANDADO: Compara la fecha actual con la del partido
   const isMatchLocked = (fechaStr: string) => {
     const matchDate = new Date(fechaStr);
+    matchDate.setHours(matchDate.getHours() + 6);
     const now = new Date();
     return now >= matchDate; // Devuelve 'true' si el partido ya empezó
   };
