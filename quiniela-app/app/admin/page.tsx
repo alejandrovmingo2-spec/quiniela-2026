@@ -86,22 +86,26 @@ export default function AdminPanel() {
                 {p.estado === 'finalizado' && <span className="bg-green-600 text-white px-2 py-1 rounded">FINALIZADO</span>}
               </div>
               
-              <div className="flex items-center justify-between bg-slate-950 p-4 rounded-lg">
-                <div className="flex items-center gap-3 w-1/3">
-                  <img src={p.local?.bandera_url || ''} className="w-6 h-4 object-cover" alt="" />
-                  <span className="font-medium text-sm">{p.local?.nombre}</span>
-                  <input type="number" min="0" className="w-12 border border-slate-600 bg-slate-800 p-1 rounded text-center text-white" 
+              <div className="flex items-center justify-between bg-slate-950 p-2 sm:p-4 rounded-lg gap-1 sm:gap-2">
+                
+                {/* Equipo Local */}
+                <div className="flex items-center gap-1 sm:gap-3 flex-1">
+                  <img src={p.local?.bandera_url || ''} className="w-5 sm:w-6 h-3 sm:h-4 object-cover shrink-0" alt="" />
+                  <span className="font-medium text-[11px] sm:text-sm flex-1 leading-tight">{p.local?.nombre}</span>
+                  <input type="number" min="0" className="w-10 sm:w-12 shrink-0 border border-slate-600 bg-slate-800 p-1 rounded text-center text-white font-bold" 
                     onChange={(e) => handleInputChange(p.id, 'local', parseInt(e.target.value))} />
                 </div>
 
-                <span className="font-bold text-slate-500 text-xs">VS</span>
+                <span className="font-bold text-slate-500 text-[10px] sm:text-xs shrink-0 px-1">VS</span>
 
-                <div className="flex items-center gap-3 w-1/3 justify-end">
-                  <input type="number" min="0" className="w-12 border border-slate-600 bg-slate-800 p-1 rounded text-center text-white" 
+                {/* Equipo Visitante */}
+                <div className="flex items-center gap-1 sm:gap-3 flex-1 justify-end">
+                  <input type="number" min="0" className="w-10 sm:w-12 shrink-0 border border-slate-600 bg-slate-800 p-1 rounded text-center text-white font-bold" 
                     onChange={(e) => handleInputChange(p.id, 'visitante', parseInt(e.target.value))} />
-                  <span className="font-medium text-sm text-right">{p.visitante?.nombre}</span>
-                  <img src={p.visitante?.bandera_url || ''} className="w-6 h-4 object-cover" alt="" />
+                  <span className="font-medium text-[11px] sm:text-sm text-right flex-1 leading-tight">{p.visitante?.nombre}</span>
+                  <img src={p.visitante?.bandera_url || ''} className="w-5 sm:w-6 h-3 sm:h-4 object-cover shrink-0" alt="" />
                 </div>
+
               </div>
 
               {isEliminatoria && hayEmpate && (
