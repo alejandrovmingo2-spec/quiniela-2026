@@ -15,9 +15,12 @@ export default function RankingQuiniela() {
   useEffect(() => {
     async function cargarRanking() {
       // Aquí le decimos a Cursor que traiga los datos de la VISTA que hicimos en Supabase
+      // Aquí le decimos a Cursor que traiga los datos de la VISTA que hicimos en Supabase
       const { data, error } = await supabase
         .from('vista_ranking')
-        .select('*');
+        .select('*')
+        .order('total_puntos', { ascending: false }) // 1ra regla: Puntos de mayor a menor
+        .order('usuario_nombre', { ascending: true }); // 2da regla: En caso de empate, alfabéticamente (A-Z)
 
       if (error) {
         console.error("Error al cargar ranking:", error);
