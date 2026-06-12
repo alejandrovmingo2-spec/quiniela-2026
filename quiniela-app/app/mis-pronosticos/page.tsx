@@ -54,7 +54,7 @@ export default function MisPronosticos() {
       <h1 className="text-3xl font-bold mb-6 text-center text-indigo-900">Mis Pronósticos</h1>
       
       <div className="mb-8 flex gap-2">
-        <input type="text" className="w-full p-3 border rounded-lg" placeholder="Tu nombre exacto..." value={nombre} onChange={(e) => setNombre(e.target.value)} />
+      <input type="text" className="w-full p-3 border rounded-lg text-black dark:text-black dark:bg-white" placeholder="Tu nombre exacto..." value={nombre} onChange={(e) => setNombre(e.target.value)} />
         <button onClick={buscarPronosticos} className="bg-indigo-600 text-white px-6 rounded-lg font-bold hover:bg-indigo-700">Buscar</button>
       </div>
 

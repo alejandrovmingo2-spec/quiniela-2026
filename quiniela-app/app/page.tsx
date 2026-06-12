@@ -37,7 +37,9 @@ export default function QuinielaDashboard() {
 
   // 1. EL CEREBRO DEL CANDADO: Compara la fecha actual con la del partido
   const isMatchLocked = (fechaStr: string) => {
+
     const matchDate = new Date(fechaStr);
+
     matchDate.setHours(matchDate.getHours() + 6);
     const now = new Date();
     return now >= matchDate; // Devuelve 'true' si el partido ya empezó
@@ -93,7 +95,7 @@ export default function QuinielaDashboard() {
             {/* Texto explícitamente color negro (text-black) */}
             <input 
               type="text" 
-              className="w-full p-3 pl-4 border border-slate-300 rounded-lg bg-slate-50 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 transition-all outline-none font-semibold text-black" 
+              className="w-full p-3 pl-4 border border-slate-300 rounded-lg bg-slate-50 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 transition-all outline-none font-semibold text-black dark:text-black dark:bg-slate-50"
               placeholder="Escribe tu nombre completo..." 
               value={usuario} 
               onChange={(e) => setUsuario(e.target.value)} 
