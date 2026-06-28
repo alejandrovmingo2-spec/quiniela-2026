@@ -34,12 +34,13 @@ export default function QuinielaDashboard() {
     }));
   };
 
-  // EL CEREBRO DEL CANDADO
+
+  // EL CEREBRO DEL CANDADO (Blindado para hora local)
   const isMatchLocked = (fechaStr: string) => {
-    const matchDate = new Date(fechaStr);
-    matchDate.setHours(matchDate.getHours() + 6);
+    const fechaLimpia = fechaStr.split('+')[0].split('Z')[0];
+    const matchDate = new Date(fechaLimpia);
     const now = new Date();
-    return now >= matchDate;
+    return now >= matchDate; 
   };
 
   async function guardarPrediccion(partidoId: number) {
