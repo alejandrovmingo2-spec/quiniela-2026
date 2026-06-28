@@ -82,7 +82,7 @@ export default function AdminPanel() {
           return (
             <div key={p.id} className={`p-5 rounded-xl border ${p.estado === 'finalizado' ? 'bg-slate-800 border-green-500' : 'bg-slate-800 border-slate-700'}`}>
               <div className="flex justify-between items-center mb-3 text-xs text-slate-400">
-                <span>{p.fase} | {p.fecha.split('T')[0]}</span>
+              <span><strong className="text-white">ID: {p.id}</strong> | {p.fase} | {p.fecha.split('T')[0]}</span>
                 {p.estado === 'finalizado' && <span className="bg-green-600 text-white px-2 py-1 rounded">FINALIZADO</span>}
               </div>
               
