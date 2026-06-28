@@ -17,7 +17,8 @@ export default function Ranking() {
       const { data, error } = await supabase
         .from('vista_ranking')
         .select('*')
-        .order('total_puntos', { ascending: false });
+        .order('total_puntos', { ascending: false })
+        .order('usuario_nombre', { ascending: true }); // <-- ESTA ES LA MAGIA DEL ABECEDARIO
 
       if (!error && data) setRanking(data);
       setLoading(false);
