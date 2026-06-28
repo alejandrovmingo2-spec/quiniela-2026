@@ -34,12 +34,16 @@ export default function QuinielaDashboard() {
     }));
   };
 
+  // EL CEREBRO DEL CANDADO (Blindado multiplataforma y por estado de Admin)
+  const isMatchLocked = (p: any) => {
+    // 1. Si tú ya lo marcaste como "finalizado" en el panel de admin, desaparece de inmediato.
+    if (p.estado === 'finalizado') return true;
 
-  // EL CEREBRO DEL CANDADO (Blindado para hora local)
-  const isMatchLocked = (fechaStr: string) => {
-    const fechaLimpia = fechaStr.split('+')[0].split('Z')[0];
+    // 2. Reparación del formato de hora para que funcione perfecto en iPhone, Safari y Android.
+    const fechaLimpia = p.fecha.split('+')[0].split('Z')[0].replace('T', ' ').replace(/-/g, '/');
     const matchDate = new Date(fechaLimpia);
     const now = new Date();
+    
     return now >= matchDate; 
   };
 
@@ -51,7 +55,6 @@ export default function QuinielaDashboard() {
       alert("Faltan los marcadores de este partido."); return;
     }
 
-    // Validación de Empate en Eliminatorias
     const partidoDB = partidos.find(x => x.id === partidoId);
     const isEliminatoria = partidoDB && !partidoDB.fase.includes("Jornada");
     if (isEliminatoria && p.local === p.visitante && (!p.metodo || !p.ganador)) {
@@ -76,12 +79,11 @@ export default function QuinielaDashboard() {
     
     let hayErrorEmpate = false;
 
-    // Preparar datos filtrando los que no están bloqueados
     const prediccionesArray = Object.keys(scores)
       .map(id => parseInt(id))
       .filter(id => {
         const partido = partidos.find(p => p.id === id);
-        return partido && !isMatchLocked(partido.fecha);
+        return partido && !isMatchLocked(partido);
       })
       .map(id => {
         const p = scores[id];
@@ -115,8 +117,8 @@ export default function QuinielaDashboard() {
 
   if (loading) return <div className="p-10 text-center text-white">Cargando quiniela...</div>;
 
-  // FILTRO MÁGICO: Oculta los partidos pasados/bloqueados y los de Fase de Grupos
-  const partidosVisibles = partidos.filter(p => !isMatchLocked(p.fecha) && !p.fase.includes("Jornada"));
+  // El filtro mágico utiliza el candado blindado
+  const partidosVisibles = partidos.filter(p => !isMatchLocked(p) && !p.fase.includes("Jornada"));
 
   return (
     <main className="min-h-screen pb-24 bg-slate-900">
@@ -188,7 +190,6 @@ export default function QuinielaDashboard() {
                     </div>
                   </div>
 
-                  {/* MENÚ DE DESEMPATE (Solo aparece si es eliminatoria y hay empate) */}
                   {hayEmpate && (
                     <div className="mt-4 p-3 sm:p-4 bg-orange-50 border border-orange-200 rounded-lg flex flex-col sm:flex-row gap-2 sm:gap-4 items-center justify-center">
                       <select className="bg-white border border-slate-300 p-2 rounded-lg text-xs sm:text-sm font-semibold w-full sm:w-auto text-black outline-none focus:ring-2 focus:ring-orange-400" 
